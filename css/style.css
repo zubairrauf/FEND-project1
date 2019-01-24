@@ -1,0 +1,128 @@
+body {
+  box-sizing: border-box;
+  color: #2d3c49;
+}
+img {
+  max-width: 100%;
+}
+h1, h2, h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+h5{
+  font-family: 'Josefin Slab', serif;
+}
+p{
+  font-family: 'Domine', serif;
+  line-height: 2em;
+}
+
+/* Styles for the header area that includes logo, title and navigation */
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* align-items: start; */
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0288d1;
+  /* background-color: #7d97ad; */
+  color: white;
+  max-height: 180px;
+  }
+.logo {
+  width: 30%;
+  padding: 10px;
+}
+.profile{
+  border: solid 2px white;
+  border-radius: 50%;
+  max-height: 150px;
+
+}
+.name {
+  width: 60%;
+  order: 1;
+}
+.name h5 {
+  margin-top: -15px;
+}
+
+
+/* Style for the content section that starts below
+the header and ends above portfolio section */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: solid 1px orange; */
+}
+
+.banner{
+  width: 100%;
+}
+
+.banner-text {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: -10%;
+  /* margin-top: -50px; */
+  margin-bottom: 20px;
+  order:1;
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
+}
+
+/* Style for the portfolio section */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* border: solid 1px red; */
+}
+.portfolio-heading {
+  width: 80%;
+  margin-top: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+.featured {
+  max-width: 350px;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  /* border-bottom: solid 5px #7d97ad; */
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
+
+}
+.na, .yelio, .tat {
+  max-width: 330px;
+  border-radius: 10px;
+}
+
+/* Styling for the footer section */
+footer{
+  min-height: 40px;
+  margin-top: 50px;
+  background-color: #7d97ad;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+footer a:visited {
+  color: white;
+}
+.footer-nav {
+  padding-top: 5px;
+}
+
+@media screen and (min-width:850px){
+  .banner-text{
+    padding: 30px 50px;
+  }
+}
