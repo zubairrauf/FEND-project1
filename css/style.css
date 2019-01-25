@@ -2,25 +2,29 @@ body {
   box-sizing: border-box;
   color: #2d3c49;
 }
+
 img {
   max-width: 100%;
 }
-h1, h2, h3{
+
+h1, h2, h3 {
   font-family: 'Josefin Sans', sans-serif;
   color: #0288d1;
 }
+
 h4{
   font-family: 'Josefin Slab', serif;
 }
+
 p{
   font-family: 'Domine', serif;
   line-height: 2em;
 }
+
 a {
   color: #0288d1;
   text-decoration: none;
 }
-
 
 /* Styles for the header area that includes logo, title and navigation */
 .main-header {
@@ -35,27 +39,30 @@ a {
   color: white;
   max-height: 180px;
   }
+
 .logo {
   width: 30%;
   padding: 10px;
 }
-.profile{
+
+.profile {
   border: solid 2px white;
   border-radius: 50%;
   max-height: 150px;
-
 }
+
 .name {
   width: 60%;
   order: 1;
 }
-.name h1{
+
+.name h1 {
   color: white;
 }
+
 .name h4 {
   margin-top: -15px;
 }
-
 
 /* Style for the content section that starts below
 the header and ends above portfolio section */
@@ -66,7 +73,7 @@ the header and ends above portfolio section */
   /* border: solid 1px orange; */
 }
 
-.banner{
+.banner {
   width: 100%;
 }
 
@@ -112,7 +119,7 @@ the header and ends above portfolio section */
 }
 
 /* Styling for the footer section */
-footer{
+footer {
   min-height: 40px;
   margin-top: 50px;
   background-color: #7d97ad;
@@ -120,6 +127,7 @@ footer{
   text-align: center;
   font-size: 12px;
 }
+
 footer a:visited {
   color: white;
 }
@@ -127,7 +135,7 @@ footer a:visited {
   padding-top: 5px;
 }
 
-@media screen and (min-width:500px){
+@media screen and (min-width:500px) {
   .banner-text{
     padding: 30px 50px;
   }
@@ -136,7 +144,7 @@ footer a:visited {
   }
 }
 
-@media screen and (min-width:550px){
+@media screen and (min-width:550px) {
   .one, .two {
     width: 40%;
   }
@@ -145,7 +153,7 @@ footer a:visited {
   }
 }
 
-@media screen and (min-width:750px){
+@media screen and (min-width:750px) {
   .one, .two, .three {
     width: 28%;
     max-width: 300px;
