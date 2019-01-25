@@ -7,14 +7,20 @@ img {
 }
 h1, h2, h3{
   font-family: 'Josefin Sans', sans-serif;
+  color: #0288d1;
 }
-h5{
+h4{
   font-family: 'Josefin Slab', serif;
 }
 p{
   font-family: 'Domine', serif;
   line-height: 2em;
 }
+a {
+  color: #0288d1;
+  text-decoration: none;
+}
+
 
 /* Styles for the header area that includes logo, title and navigation */
 .main-header {
@@ -43,7 +49,10 @@ p{
   width: 60%;
   order: 1;
 }
-.name h5 {
+.name h1{
+  color: white;
+}
+.name h4 {
   margin-top: -15px;
 }
 
@@ -80,29 +89,26 @@ the header and ends above portfolio section */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-  /* border: solid 1px red; */
 }
+
 .portfolio-heading {
   width: 80%;
   margin-top: 30px;
   text-align: center;
-  background-color: white;
 }
 
 .featured {
-  max-width: 350px;
-  margin-bottom: 20px;
+  width: 80%;
+  margin: 5px;
   padding: 10px 10px;
-  /* border-bottom: solid 5px #7d97ad; */
   border-radius: 10px;
   text-align: center;
   box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
-
 }
-.na, .yelio, .tat {
-  max-width: 330px;
-  border-radius: 10px;
+
+.featured p {
+  font-size: 0.8em;
+  line-height: 1.2em;
 }
 
 /* Styling for the footer section */
@@ -121,8 +127,27 @@ footer a:visited {
   padding-top: 5px;
 }
 
-@media screen and (min-width:850px){
+@media screen and (min-width:500px){
   .banner-text{
     padding: 30px 50px;
+  }
+  .featured {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:550px){
+  .one, .two {
+    width: 40%;
+  }
+  .three {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:750px){
+  .one, .two, .three {
+    width: 28%;
+    max-width: 300px;
   }
 }
